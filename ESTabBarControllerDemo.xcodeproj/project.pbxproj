@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E20AF76D1ED7CB6500D2630F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20AF76C1ED7CB6500D2630F /* AppDelegate.swift */; };
+		E20AF76F1ED7CB6500D2630F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20AF76E1ED7CB6500D2630F /* ViewController.swift */; };
+		E20AF7721ED7CB6500D2630F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20AF7701ED7CB6500D2630F /* Main.storyboard */; };
+		E20AF7741ED7CB6500D2630F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20AF7731ED7CB6500D2630F /* Assets.xcassets */; };
+		E20AF7771ED7CB6500D2630F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20AF7751ED7CB6500D2630F /* LaunchScreen.storyboard */; };
+		E20AF7821ED7CB6500D2630F /* ESTabBarControllerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20AF7811ED7CB6500D2630F /* ESTabBarControllerDemoTests.swift */; };
+		E20AF78D1ED7CB6500D2630F /* ESTabBarControllerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20AF78C1ED7CB6500D2630F /* ESTabBarControllerDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E20AF77E1ED7CB6500D2630F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E20AF7611ED7CB6500D2630F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E20AF7681ED7CB6500D2630F;
+			remoteInfo = ESTabBarControllerDemo;
+		};
+		E20AF7891ED7CB6500D2630F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E20AF7611ED7CB6500D2630F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E20AF7681ED7CB6500D2630F;
+			remoteInfo = ESTabBarControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E20AF7691ED7CB6500D2630F /* ESTabBarControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESTabBarControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20AF76C1ED7CB6500D2630F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E20AF76E1ED7CB6500D2630F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E20AF7711ED7CB6500D2630F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E20AF7731ED7CB6500D2630F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E20AF7761ED7CB6500D2630F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E20AF7781ED7CB6500D2630F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E20AF77D1ED7CB6500D2630F /* ESTabBarControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESTabBarControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20AF7811ED7CB6500D2630F /* ESTabBarControllerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESTabBarControllerDemoTests.swift; sourceTree = "<group>"; };
+		E20AF7831ED7CB6500D2630F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E20AF7881ED7CB6500D2630F /* ESTabBarControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESTabBarControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20AF78C1ED7CB6500D2630F /* ESTabBarControllerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESTabBarControllerDemoUITests.swift; sourceTree = "<group>"; };
+		E20AF78E1ED7CB6500D2630F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E20AF7661ED7CB6500D2630F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20AF77A1ED7CB6500D2630F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20AF7851ED7CB6500D2630F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E20AF7601ED7CB6500D2630F = {
+			isa = PBXGroup;
+			children = (
+				E20AF76B1ED7CB6500D2630F /* ESTabBarControllerDemo */,
+				E20AF7801ED7CB6500D2630F /* ESTabBarControllerDemoTests */,
+				E20AF78B1ED7CB6500D2630F /* ESTabBarControllerDemoUITests */,
+				E20AF76A1ED7CB6500D2630F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E20AF76A1ED7CB6500D2630F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E20AF7691ED7CB6500D2630F /* ESTabBarControllerDemo.app */,
+				E20AF77D1ED7CB6500D2630F /* ESTabBarControllerDemoTests.xctest */,
+				E20AF7881ED7CB6500D2630F /* ESTabBarControllerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E20AF76B1ED7CB6500D2630F /* ESTabBarControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E20AF76C1ED7CB6500D2630F /* AppDelegate.swift */,
+				E20AF76E1ED7CB6500D2630F /* ViewController.swift */,
+				E20AF7701ED7CB6500D2630F /* Main.storyboard */,
+				E20AF7731ED7CB6500D2630F /* Assets.xcassets */,
+				E20AF7751ED7CB6500D2630F /* LaunchScreen.storyboard */,
+				E20AF7781ED7CB6500D2630F /* Info.plist */,
+			);
+			path = ESTabBarControllerDemo;
+			sourceTree = "<group>";
+		};
+		E20AF7801ED7CB6500D2630F /* ESTabBarControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E20AF7811ED7CB6500D2630F /* ESTabBarControllerDemoTests.swift */,
+				E20AF7831ED7CB6500D2630F /* Info.plist */,
+			);
+			path = ESTabBarControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		E20AF78B1ED7CB6500D2630F /* ESTabBarControllerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E20AF78C1ED7CB6500D2630F /* ESTabBarControllerDemoUITests.swift */,
+				E20AF78E1ED7CB6500D2630F /* Info.plist */,
+			);
+			path = ESTabBarControllerDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E20AF7681ED7CB6500D2630F /* ESTabBarControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E20AF7911ED7CB6500D2630F /* Build configuration list for PBXNativeTarget "ESTabBarControllerDemo" */;
+			buildPhases = (
+				E20AF7651ED7CB6500D2630F /* Sources */,
+				E20AF7661ED7CB6500D2630F /* Frameworks */,
+				E20AF7671ED7CB6500D2630F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESTabBarControllerDemo;
+			productName = ESTabBarControllerDemo;
+			productReference = E20AF7691ED7CB6500D2630F /* ESTabBarControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E20AF77C1ED7CB6500D2630F /* ESTabBarControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E20AF7941ED7CB6500D2630F /* Build configuration list for PBXNativeTarget "ESTabBarControllerDemoTests" */;
+			buildPhases = (
+				E20AF7791ED7CB6500D2630F /* Sources */,
+				E20AF77A1ED7CB6500D2630F /* Frameworks */,
+				E20AF77B1ED7CB6500D2630F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E20AF77F1ED7CB6500D2630F /* PBXTargetDependency */,
+			);
+			name = ESTabBarControllerDemoTests;
+			productName = ESTabBarControllerDemoTests;
+			productReference = E20AF77D1ED7CB6500D2630F /* ESTabBarControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E20AF7871ED7CB6500D2630F /* ESTabBarControllerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E20AF7971ED7CB6500D2630F /* Build configuration list for PBXNativeTarget "ESTabBarControllerDemoUITests" */;
+			buildPhases = (
+				E20AF7841ED7CB6500D2630F /* Sources */,
+				E20AF7851ED7CB6500D2630F /* Frameworks */,
+				E20AF7861ED7CB6500D2630F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E20AF78A1ED7CB6500D2630F /* PBXTargetDependency */,
+			);
+			name = ESTabBarControllerDemoUITests;
+			productName = ESTabBarControllerDemoUITests;
+			productReference = E20AF7881ED7CB6500D2630F /* ESTabBarControllerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E20AF7611ED7CB6500D2630F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zgpeace;
+				TargetAttributes = {
+					E20AF7681ED7CB6500D2630F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					E20AF77C1ED7CB6500D2630F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E20AF7681ED7CB6500D2630F;
+					};
+					E20AF7871ED7CB6500D2630F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E20AF7681ED7CB6500D2630F;
+					};
+				};
+			};
+			buildConfigurationList = E20AF7641ED7CB6500D2630F /* Build configuration list for PBXProject "ESTabBarControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E20AF7601ED7CB6500D2630F;
+			productRefGroup = E20AF76A1ED7CB6500D2630F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E20AF7681ED7CB6500D2630F /* ESTabBarControllerDemo */,
+				E20AF77C1ED7CB6500D2630F /* ESTabBarControllerDemoTests */,
+				E20AF7871ED7CB6500D2630F /* ESTabBarControllerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E20AF7671ED7CB6500D2630F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20AF7771ED7CB6500D2630F /* LaunchScreen.storyboard in Resources */,
+				E20AF7741ED7CB6500D2630F /* Assets.xcassets in Resources */,
+				E20AF7721ED7CB6500D2630F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20AF77B1ED7CB6500D2630F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20AF7861ED7CB6500D2630F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E20AF7651ED7CB6500D2630F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20AF76F1ED7CB6500D2630F /* ViewController.swift in Sources */,
+				E20AF76D1ED7CB6500D2630F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20AF7791ED7CB6500D2630F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20AF7821ED7CB6500D2630F /* ESTabBarControllerDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20AF7841ED7CB6500D2630F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20AF78D1ED7CB6500D2630F /* ESTabBarControllerDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E20AF77F1ED7CB6500D2630F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E20AF7681ED7CB6500D2630F /* ESTabBarControllerDemo */;
+			targetProxy = E20AF77E1ED7CB6500D2630F /* PBXContainerItemProxy */;
+		};
+		E20AF78A1ED7CB6500D2630F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E20AF7681ED7CB6500D2630F /* ESTabBarControllerDemo */;
+			targetProxy = E20AF7891ED7CB6500D2630F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E20AF7701ED7CB6500D2630F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E20AF7711ED7CB6500D2630F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E20AF7751ED7CB6500D2630F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E20AF7761ED7CB6500D2630F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E20AF78F1ED7CB6500D2630F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E20AF7901ED7CB6500D2630F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E20AF7921ED7CB6500D2630F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ESTabBarControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zgpeace.ESTabBarControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E20AF7931ED7CB6500D2630F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ESTabBarControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zgpeace.ESTabBarControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E20AF7951ED7CB6500D2630F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ESTabBarControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zgpeace.ESTabBarControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESTabBarControllerDemo.app/ESTabBarControllerDemo";
+			};
+			name = Debug;
+		};
+		E20AF7961ED7CB6500D2630F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ESTabBarControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zgpeace.ESTabBarControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESTabBarControllerDemo.app/ESTabBarControllerDemo";
+			};
+			name = Release;
+		};
+		E20AF7981ED7CB6500D2630F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ESTabBarControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zgpeace.ESTabBarControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ESTabBarControllerDemo;
+			};
+			name = Debug;
+		};
+		E20AF7991ED7CB6500D2630F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ESTabBarControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zgpeace.ESTabBarControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ESTabBarControllerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E20AF7641ED7CB6500D2630F /* Build configuration list for PBXProject "ESTabBarControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20AF78F1ED7CB6500D2630F /* Debug */,
+				E20AF7901ED7CB6500D2630F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E20AF7911ED7CB6500D2630F /* Build configuration list for PBXNativeTarget "ESTabBarControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20AF7921ED7CB6500D2630F /* Debug */,
+				E20AF7931ED7CB6500D2630F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E20AF7941ED7CB6500D2630F /* Build configuration list for PBXNativeTarget "ESTabBarControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20AF7951ED7CB6500D2630F /* Debug */,
+				E20AF7961ED7CB6500D2630F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E20AF7971ED7CB6500D2630F /* Build configuration list for PBXNativeTarget "ESTabBarControllerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20AF7981ED7CB6500D2630F /* Debug */,
+				E20AF7991ED7CB6500D2630F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E20AF7611ED7CB6500D2630F /* Project object */;
+}
