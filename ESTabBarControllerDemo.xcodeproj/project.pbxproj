@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21B060018952A1B0109F58B4 /* Pods_ESTabBarControllerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E11BBD4DC09EAB538510DDE /* Pods_ESTabBarControllerDemo.framework */; };
+		2B673CE06CB9F29BE29E422E /* Pods_ESTabBarControllerDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23FEFABFE06E5CE10B6ECC8E /* Pods_ESTabBarControllerDemoTests.framework */; };
+		9D3CD28FC75CF92F30EE21F2 /* Pods_ESTabBarControllerDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C6DD5AF3135C85E92049C3 /* Pods_ESTabBarControllerDemoUITests.framework */; };
 		E20AF76D1ED7CB6500D2630F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20AF76C1ED7CB6500D2630F /* AppDelegate.swift */; };
 		E20AF76F1ED7CB6500D2630F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20AF76E1ED7CB6500D2630F /* ViewController.swift */; };
 		E20AF7721ED7CB6500D2630F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20AF7701ED7CB6500D2630F /* Main.storyboard */; };
@@ -14,6 +17,26 @@
 		E20AF7771ED7CB6500D2630F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20AF7751ED7CB6500D2630F /* LaunchScreen.storyboard */; };
 		E20AF7821ED7CB6500D2630F /* ESTabBarControllerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20AF7811ED7CB6500D2630F /* ESTabBarControllerDemoTests.swift */; };
 		E20AF78D1ED7CB6500D2630F /* ESTabBarControllerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20AF78C1ED7CB6500D2630F /* ESTabBarControllerDemoUITests.swift */; };
+		E20AF7A21ED7E66400D2630F /* ExampleAnimateTipsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20AF79B1ED7E66400D2630F /* ExampleAnimateTipsContentView.swift */; };
+		E20AF7A31ED7E66400D2630F /* ExampleBackgroundContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20AF79C1ED7E66400D2630F /* ExampleBackgroundContentView.swift */; };
+		E20AF7A41ED7E66400D2630F /* ExampleBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20AF79D1ED7E66400D2630F /* ExampleBasicContentView.swift */; };
+		E20AF7A51ED7E66400D2630F /* ExampleBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20AF79E1ED7E66400D2630F /* ExampleBouncesContentView.swift */; };
+		E20AF7A61ED7E66400D2630F /* ExampleHighlightableContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20AF79F1ED7E66400D2630F /* ExampleHighlightableContentView.swift */; };
+		E20AF7A81ED7E66400D2630F /* ExampleTipsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20AF7A11ED7E66400D2630F /* ExampleTipsContentView.swift */; };
+		E20AF7AA1ED8063000D2630F /* ExampleNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20AF7A91ED8063000D2630F /* ExampleNavigationController.swift */; };
+		E26D167E1EDAACBB006E40E5 /* ESTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26D16771EDAACBB006E40E5 /* ESTabBar.swift */; };
+		E26D167F1EDAACBB006E40E5 /* ESTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26D16781EDAACBB006E40E5 /* ESTabBarController.swift */; };
+		E26D16801EDAACBB006E40E5 /* ESTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26D16791EDAACBB006E40E5 /* ESTabBarItem.swift */; };
+		E26D16811EDAACBB006E40E5 /* ESTabBarItemBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26D167A1EDAACBB006E40E5 /* ESTabBarItemBadgeView.swift */; };
+		E26D16821EDAACBB006E40E5 /* ESTabBarItemContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26D167B1EDAACBB006E40E5 /* ESTabBarItemContainer.swift */; };
+		E26D16831EDAACBB006E40E5 /* ESTabBarItemContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26D167C1EDAACBB006E40E5 /* ESTabBarItemContentView.swift */; };
+		E26D16841EDAACBB006E40E5 /* ESTabBarItemMoreContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26D167D1EDAACBB006E40E5 /* ESTabBarItemMoreContentView.swift */; };
+		E26D16861EDAAD5C006E40E5 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26D16851EDAAD5C006E40E5 /* ViewController1.swift */; };
+		E26D16881EDAAD65006E40E5 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26D16871EDAAD65006E40E5 /* ViewController2.swift */; };
+		E26D168A1EDAAD6D006E40E5 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26D16891EDAAD6D006E40E5 /* ViewController3.swift */; };
+		E26D168C1EDAAD76006E40E5 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26D168B1EDAAD76006E40E5 /* ViewController4.swift */; };
+		E26D168E1EDAAD7E006E40E5 /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26D168D1EDAAD7E006E40E5 /* ViewController5.swift */; };
+		E26D16901EDAADF5006E40E5 /* UIColor+RGBA.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26D168F1EDAADF5006E40E5 /* UIColor+RGBA.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +57,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1660C953583B130F82386ECA /* Pods-ESTabBarControllerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESTabBarControllerDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ESTabBarControllerDemoUITests/Pods-ESTabBarControllerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		23FEFABFE06E5CE10B6ECC8E /* Pods_ESTabBarControllerDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESTabBarControllerDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0C407D776B6D8747210AC9 /* Pods-ESTabBarControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESTabBarControllerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ESTabBarControllerDemo/Pods-ESTabBarControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		67C6DD5AF3135C85E92049C3 /* Pods_ESTabBarControllerDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESTabBarControllerDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E95E716C29C561428EC7D85 /* Pods-ESTabBarControllerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESTabBarControllerDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ESTabBarControllerDemoTests/Pods-ESTabBarControllerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E11BBD4DC09EAB538510DDE /* Pods_ESTabBarControllerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESTabBarControllerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E69A62F7693681C609C016 /* Pods-ESTabBarControllerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESTabBarControllerDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ESTabBarControllerDemoUITests/Pods-ESTabBarControllerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE4D6546915BD3D47B412C2F /* Pods-ESTabBarControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESTabBarControllerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ESTabBarControllerDemo/Pods-ESTabBarControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D9BA3D0481907618B71B944B /* Pods-ESTabBarControllerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESTabBarControllerDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ESTabBarControllerDemoTests/Pods-ESTabBarControllerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		E20AF7691ED7CB6500D2630F /* ESTabBarControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESTabBarControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20AF76C1ED7CB6500D2630F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E20AF76E1ED7CB6500D2630F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +79,27 @@
 		E20AF7881ED7CB6500D2630F /* ESTabBarControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESTabBarControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20AF78C1ED7CB6500D2630F /* ESTabBarControllerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESTabBarControllerDemoUITests.swift; sourceTree = "<group>"; };
 		E20AF78E1ED7CB6500D2630F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E20AF79B1ED7E66400D2630F /* ExampleAnimateTipsContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleAnimateTipsContentView.swift; sourceTree = "<group>"; };
+		E20AF79C1ED7E66400D2630F /* ExampleBackgroundContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBackgroundContentView.swift; sourceTree = "<group>"; };
+		E20AF79D1ED7E66400D2630F /* ExampleBasicContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBasicContentView.swift; sourceTree = "<group>"; };
+		E20AF79E1ED7E66400D2630F /* ExampleBouncesContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBouncesContentView.swift; sourceTree = "<group>"; };
+		E20AF79F1ED7E66400D2630F /* ExampleHighlightableContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleHighlightableContentView.swift; sourceTree = "<group>"; };
+		E20AF7A11ED7E66400D2630F /* ExampleTipsContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTipsContentView.swift; sourceTree = "<group>"; };
+		E20AF7A91ED8063000D2630F /* ExampleNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleNavigationController.swift; sourceTree = "<group>"; };
+		E20AF7AB1ED81C1700D2630F /* ESTabBarController_swift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ESTabBarController_swift.framework; path = "../../../Library/Developer/Xcode/DerivedData/ESTabBarControllerDemo-gdueqesbotroykaydriltoclhjjn/Build/Products/Debug-iphonesimulator/ESTabBarController-swift/ESTabBarController_swift.framework"; sourceTree = "<group>"; };
+		E26D16771EDAACBB006E40E5 /* ESTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBar.swift; sourceTree = "<group>"; };
+		E26D16781EDAACBB006E40E5 /* ESTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarController.swift; sourceTree = "<group>"; };
+		E26D16791EDAACBB006E40E5 /* ESTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItem.swift; sourceTree = "<group>"; };
+		E26D167A1EDAACBB006E40E5 /* ESTabBarItemBadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemBadgeView.swift; sourceTree = "<group>"; };
+		E26D167B1EDAACBB006E40E5 /* ESTabBarItemContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemContainer.swift; sourceTree = "<group>"; };
+		E26D167C1EDAACBB006E40E5 /* ESTabBarItemContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemContentView.swift; sourceTree = "<group>"; };
+		E26D167D1EDAACBB006E40E5 /* ESTabBarItemMoreContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemMoreContentView.swift; sourceTree = "<group>"; };
+		E26D16851EDAAD5C006E40E5 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		E26D16871EDAAD65006E40E5 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		E26D16891EDAAD6D006E40E5 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		E26D168B1EDAAD76006E40E5 /* ViewController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		E26D168D1EDAAD7E006E40E5 /* ViewController5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		E26D168F1EDAADF5006E40E5 /* UIColor+RGBA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+RGBA.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21B060018952A1B0109F58B4 /* Pods_ESTabBarControllerDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B673CE06CB9F29BE29E422E /* Pods_ESTabBarControllerDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +123,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D3CD28FC75CF92F30EE21F2 /* Pods_ESTabBarControllerDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DDFEF3859F743550F692E0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE4D6546915BD3D47B412C2F /* Pods-ESTabBarControllerDemo.debug.xcconfig */,
+				3C0C407D776B6D8747210AC9 /* Pods-ESTabBarControllerDemo.release.xcconfig */,
+				7E95E716C29C561428EC7D85 /* Pods-ESTabBarControllerDemoTests.debug.xcconfig */,
+				D9BA3D0481907618B71B944B /* Pods-ESTabBarControllerDemoTests.release.xcconfig */,
+				97E69A62F7693681C609C016 /* Pods-ESTabBarControllerDemoUITests.debug.xcconfig */,
+				1660C953583B130F82386ECA /* Pods-ESTabBarControllerDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD303E951970861516EA66C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E20AF7AB1ED81C1700D2630F /* ESTabBarController_swift.framework */,
+				8E11BBD4DC09EAB538510DDE /* Pods_ESTabBarControllerDemo.framework */,
+				23FEFABFE06E5CE10B6ECC8E /* Pods_ESTabBarControllerDemoTests.framework */,
+				67C6DD5AF3135C85E92049C3 /* Pods_ESTabBarControllerDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E20AF7601ED7CB6500D2630F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +161,8 @@
 				E20AF7801ED7CB6500D2630F /* ESTabBarControllerDemoTests */,
 				E20AF78B1ED7CB6500D2630F /* ESTabBarControllerDemoUITests */,
 				E20AF76A1ED7CB6500D2630F /* Products */,
+				4DDFEF3859F743550F692E0F /* Pods */,
+				AD303E951970861516EA66C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +179,17 @@
 		E20AF76B1ED7CB6500D2630F /* ESTabBarControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E26D16761EDAACBB006E40E5 /* Sources */,
+				E20AF79A1ED7E66400D2630F /* Content */,
 				E20AF76C1ED7CB6500D2630F /* AppDelegate.swift */,
+				E20AF7A91ED8063000D2630F /* ExampleNavigationController.swift */,
 				E20AF76E1ED7CB6500D2630F /* ViewController.swift */,
+				E26D16851EDAAD5C006E40E5 /* ViewController1.swift */,
+				E26D16871EDAAD65006E40E5 /* ViewController2.swift */,
+				E26D16891EDAAD6D006E40E5 /* ViewController3.swift */,
+				E26D168B1EDAAD76006E40E5 /* ViewController4.swift */,
+				E26D168D1EDAAD7E006E40E5 /* ViewController5.swift */,
+				E26D168F1EDAADF5006E40E5 /* UIColor+RGBA.swift */,
 				E20AF7701ED7CB6500D2630F /* Main.storyboard */,
 				E20AF7731ED7CB6500D2630F /* Assets.xcassets */,
 				E20AF7751ED7CB6500D2630F /* LaunchScreen.storyboard */,
@@ -125,6 +216,33 @@
 			path = ESTabBarControllerDemoUITests;
 			sourceTree = "<group>";
 		};
+		E20AF79A1ED7E66400D2630F /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				E20AF79B1ED7E66400D2630F /* ExampleAnimateTipsContentView.swift */,
+				E20AF79C1ED7E66400D2630F /* ExampleBackgroundContentView.swift */,
+				E20AF79D1ED7E66400D2630F /* ExampleBasicContentView.swift */,
+				E20AF79E1ED7E66400D2630F /* ExampleBouncesContentView.swift */,
+				E20AF79F1ED7E66400D2630F /* ExampleHighlightableContentView.swift */,
+				E20AF7A11ED7E66400D2630F /* ExampleTipsContentView.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		E26D16761EDAACBB006E40E5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E26D16771EDAACBB006E40E5 /* ESTabBar.swift */,
+				E26D16781EDAACBB006E40E5 /* ESTabBarController.swift */,
+				E26D16791EDAACBB006E40E5 /* ESTabBarItem.swift */,
+				E26D167A1EDAACBB006E40E5 /* ESTabBarItemBadgeView.swift */,
+				E26D167B1EDAACBB006E40E5 /* ESTabBarItemContainer.swift */,
+				E26D167C1EDAACBB006E40E5 /* ESTabBarItemContentView.swift */,
+				E26D167D1EDAACBB006E40E5 /* ESTabBarItemMoreContentView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +250,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E20AF7911ED7CB6500D2630F /* Build configuration list for PBXNativeTarget "ESTabBarControllerDemo" */;
 			buildPhases = (
+				A7DE2A5645A6872A0A054B2F /* [CP] Check Pods Manifest.lock */,
 				E20AF7651ED7CB6500D2630F /* Sources */,
 				E20AF7661ED7CB6500D2630F /* Frameworks */,
 				E20AF7671ED7CB6500D2630F /* Resources */,
+				C9C336FB4C1741F524161960 /* [CP] Embed Pods Frameworks */,
+				56AB6A160749F37CD1336E5D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +270,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E20AF7941ED7CB6500D2630F /* Build configuration list for PBXNativeTarget "ESTabBarControllerDemoTests" */;
 			buildPhases = (
+				E776F12F645AF4814197BD1A /* [CP] Check Pods Manifest.lock */,
 				E20AF7791ED7CB6500D2630F /* Sources */,
 				E20AF77A1ED7CB6500D2630F /* Frameworks */,
 				E20AF77B1ED7CB6500D2630F /* Resources */,
+				ECF487920CD35B13419EFD4A /* [CP] Embed Pods Frameworks */,
+				7B933606B1C627F18BB0F852 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +291,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E20AF7971ED7CB6500D2630F /* Build configuration list for PBXNativeTarget "ESTabBarControllerDemoUITests" */;
 			buildPhases = (
+				DBD76FA16B71280B28D9CEDE /* [CP] Check Pods Manifest.lock */,
 				E20AF7841ED7CB6500D2630F /* Sources */,
 				E20AF7851ED7CB6500D2630F /* Frameworks */,
 				E20AF7861ED7CB6500D2630F /* Resources */,
+				E0675F8C03CC2BF0D0280993 /* [CP] Embed Pods Frameworks */,
+				C6C9EA777DC4FE72068AF833 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +381,171 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		56AB6A160749F37CD1336E5D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ESTabBarControllerDemo/Pods-ESTabBarControllerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B933606B1C627F18BB0F852 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ESTabBarControllerDemoTests/Pods-ESTabBarControllerDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7DE2A5645A6872A0A054B2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C6C9EA777DC4FE72068AF833 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ESTabBarControllerDemoUITests/Pods-ESTabBarControllerDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9C336FB4C1741F524161960 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ESTabBarControllerDemo/Pods-ESTabBarControllerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBD76FA16B71280B28D9CEDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E0675F8C03CC2BF0D0280993 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ESTabBarControllerDemoUITests/Pods-ESTabBarControllerDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E776F12F645AF4814197BD1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ECF487920CD35B13419EFD4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ESTabBarControllerDemoTests/Pods-ESTabBarControllerDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E20AF7651ED7CB6500D2630F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E20AF7A61ED7E66400D2630F /* ExampleHighlightableContentView.swift in Sources */,
 				E20AF76F1ED7CB6500D2630F /* ViewController.swift in Sources */,
+				E26D16821EDAACBB006E40E5 /* ESTabBarItemContainer.swift in Sources */,
+				E26D16901EDAADF5006E40E5 /* UIColor+RGBA.swift in Sources */,
+				E20AF7A51ED7E66400D2630F /* ExampleBouncesContentView.swift in Sources */,
+				E20AF7A41ED7E66400D2630F /* ExampleBasicContentView.swift in Sources */,
+				E26D16861EDAAD5C006E40E5 /* ViewController1.swift in Sources */,
+				E26D16801EDAACBB006E40E5 /* ESTabBarItem.swift in Sources */,
+				E20AF7A21ED7E66400D2630F /* ExampleAnimateTipsContentView.swift in Sources */,
 				E20AF76D1ED7CB6500D2630F /* AppDelegate.swift in Sources */,
+				E26D16841EDAACBB006E40E5 /* ESTabBarItemMoreContentView.swift in Sources */,
+				E26D168A1EDAAD6D006E40E5 /* ViewController3.swift in Sources */,
+				E20AF7A81ED7E66400D2630F /* ExampleTipsContentView.swift in Sources */,
+				E26D16881EDAAD65006E40E5 /* ViewController2.swift in Sources */,
+				E26D168E1EDAAD7E006E40E5 /* ViewController5.swift in Sources */,
+				E26D16811EDAACBB006E40E5 /* ESTabBarItemBadgeView.swift in Sources */,
+				E26D167F1EDAACBB006E40E5 /* ESTabBarController.swift in Sources */,
+				E26D167E1EDAACBB006E40E5 /* ESTabBar.swift in Sources */,
+				E20AF7AA1ED8063000D2630F /* ExampleNavigationController.swift in Sources */,
+				E20AF7A31ED7E66400D2630F /* ExampleBackgroundContentView.swift in Sources */,
+				E26D16831EDAACBB006E40E5 /* ESTabBarItemContentView.swift in Sources */,
+				E26D168C1EDAAD76006E40E5 /* ViewController4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,10 +695,12 @@
 		};
 		E20AF7921ED7CB6500D2630F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE4D6546915BD3D47B412C2F /* Pods-ESTabBarControllerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ESTabBarControllerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zgpeace.ESTabBarControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -422,10 +709,12 @@
 		};
 		E20AF7931ED7CB6500D2630F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C0C407D776B6D8747210AC9 /* Pods-ESTabBarControllerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ESTabBarControllerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zgpeace.ESTabBarControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -434,6 +723,7 @@
 		};
 		E20AF7951ED7CB6500D2630F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E95E716C29C561428EC7D85 /* Pods-ESTabBarControllerDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +738,7 @@
 		};
 		E20AF7961ED7CB6500D2630F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9BA3D0481907618B71B944B /* Pods-ESTabBarControllerDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +753,7 @@
 		};
 		E20AF7981ED7CB6500D2630F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97E69A62F7693681C609C016 /* Pods-ESTabBarControllerDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ESTabBarControllerDemoUITests/Info.plist;
@@ -475,6 +767,7 @@
 		};
 		E20AF7991ED7CB6500D2630F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1660C953583B130F82386ECA /* Pods-ESTabBarControllerDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ESTabBarControllerDemoUITests/Info.plist;
@@ -505,6 +798,7 @@
 				E20AF7931ED7CB6500D2630F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E20AF7941ED7CB6500D2630F /* Build configuration list for PBXNativeTarget "ESTabBarControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +807,7 @@
 				E20AF7961ED7CB6500D2630F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E20AF7971ED7CB6500D2630F /* Build configuration list for PBXNativeTarget "ESTabBarControllerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +816,7 @@
 				E20AF7991ED7CB6500D2630F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

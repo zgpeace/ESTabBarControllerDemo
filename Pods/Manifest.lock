@@ -1,0 +1,12 @@
+PODS:
+  - ESTabBarController-swift (2.4)
+
+DEPENDENCIES:
+  - ESTabBarController-swift
+
+SPEC CHECKSUMS:
+  ESTabBarController-swift: af496895039ba10ae60bf825473c45f23fc5c8b6
+
+PODFILE CHECKSUM: d990a16654120460b34828932d2a1843451ac290
+
+COCOAPODS: 1.2.1

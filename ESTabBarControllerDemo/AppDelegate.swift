@@ -16,6 +16,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let tabBarController = ESTabBarController()
+        let v1 = ViewController1()
+        let v2 = ViewController2()
+        let v3 = ViewController3()
+        let v4 = ViewController4()
+        let v5 = ViewController5()
+        v1.tabBarItem = ESTabBarItem.init(ExampleBouncesContentView(), title: "Home", image: UIImage(named: "home"), selectedImage: UIImage(named: "home_1"))
+        v2.tabBarItem = ESTabBarItem.init(ExampleBouncesContentView(), title: "Find", image: UIImage(named: "find"), selectedImage: UIImage(named: "find_1"))
+        v3.tabBarItem = ESTabBarItem.init(ExampleBouncesContentView(), title: "Photo", image: UIImage(named: "photo"), selectedImage: UIImage(named: "photo_1"))
+        v4.tabBarItem = ESTabBarItem.init(ExampleBouncesContentView(), title: "Favor", image: UIImage(named: "favor"), selectedImage: UIImage(named: "favor_1"))
+        v5.tabBarItem = ESTabBarItem.init(ExampleBouncesContentView(), title: "Me", image: UIImage(named: "me"), selectedImage: UIImage(named: "me_1"))
+        
+        tabBarController.viewControllers = [v1, v2, v3, v4, v5]
+        
+        if let tabBarItem = v2.tabBarItem as? ESTabBarItem {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2, execute: { 
+                tabBarItem.badgeValue = "88"
+            })
+        }
+        
+        let navigationController = ExampleNavigationController.init(rootViewController: tabBarController)
+        tabBarController.title = "Example"
+        
+        window?.rootViewController = navigationController
+        
         return true
     }
 
